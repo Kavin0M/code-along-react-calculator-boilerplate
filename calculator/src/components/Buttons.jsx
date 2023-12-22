@@ -46,7 +46,7 @@ function Buttons() {
                 ans = (Number(num1) * Number(num2))
                 break
             case "/":
-                ans = (Number(num1) + Number(num2))
+                ans = (Number(num1) / Number(num2))
                 break
         }
         setToggle(prevState => !prevState)
